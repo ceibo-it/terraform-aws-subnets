@@ -179,7 +179,7 @@ for example:
 
 ## Copyright
 
-Copyright © 2017-2019 [Cloud Posse, LLC](https://cpco.io/copyright)
+Copyright © 2020 [Ceibo](https://ceibo.it/copyright)
 
 
 
