@@ -150,6 +150,11 @@ variable "enabled" {
   default     = "true"
 }
 
+variable "internet_gateway_enabled" {
+  description = "Flag to enable/disable public default route to internet gateway"
+  default     = "true"
+}
+
 variable "nat_gateway_enabled" {
   description = "Flag to enable/disable NAT Gateways creation in public subnets"
   default     = "true"

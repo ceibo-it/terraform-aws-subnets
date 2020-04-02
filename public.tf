@@ -81,7 +81,7 @@ resource "aws_route_table" "public" {
 }
 
 resource "aws_route" "public" {
-  count                  = local.public_count
+  count                  = var.internet_gateway_enabled ? local.public_count : 0
   route_table_id         = element(aws_route_table.public.*.id, count.index)
   gateway_id             = var.igw_id
   destination_cidr_block = "0.0.0.0/0"
